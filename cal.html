@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+    <link href="calculator style sheet.css" type="text/css" rel="stylesheet">
+    <script src="calculator.js"></script>
+  </head>
+  <body>
+    <h1 align="center">Calculator</h1>
+
+
+<br/>
+<!-- <div class="lable"><p id="test"></p> -->
+
+  <div class="panel">
+    <button onclick="clearX()"> C </button>
+    <p id="test" class="format" maxlength="10"></p>
+    <button onclick="memoryClear()"> MC </button>
+    <button onclick="memorySave()" id="memory" class="memoryM"> MS </button>
+    <button onclick="memoryRecall()"> MR </button>
+    <button onclick="neg()"> +/- </button>
+    <br/>
+    <button onclick="seven()"> 7 </button>
+    <button onclick="eight()"> 8 </button>
+    <button onclick="nine()"> 9 </button>
+    <button onclick="multiply()"> x </button>
+    <br/>
+    <button onclick="four()"> 4 </button>
+    <button onclick="five()"> 5 </button>
+    <button onclick="six()"> 6 </button>
+    <button onclick="minus()"> - </button>
+    <br/>
+    <button onclick="one()"> 1 </button>
+    <button onclick="two()"> 2 </button>
+    <button onclick="three()"> 3 </button>
+    <button onclick="plus()"> + </button>
+    <br/>
+    <button onclick="zero()"> 0 </button>
+    <button onclick="decimal()"> . </button>
+    <button onclick="equals()"> = </button>
+    <button onclick="divide()"> / </button>
+</div>
+ <div class="instructions">
+   <p id="full">TEST LINE (calc Line)</p>
+   <p> C = Clear</p>
+   <p> MC  =  Clear Memory (clear stored/saved number)</p>
+   <p> MS  =  Memory Store (store/save number)</p>
+   <p> MR  =  Memory Recall (output saved number)</p>
+   <p> +/-  =  toggle between positive and negative</p>
+     <div class="primeNumberGen">
+       <p class="primeNumberTitle"> Prime Number Generator</P>
+       <p> Enter Range </p>
+      <p>Start <input type="text" id="startRange" class="myInputTextStart" maxlength="22"/></P>
+       <p>End <input type="text" id="endRange" class="myInputTextEnd" maxlength="22"/></p>
+       <p id="second">is number entered prime</p>
+       <button onclick="primeNumberGen()"><span>Find Prime</span></button>
+        <button onclick="isPrime()"><span>Is Prime</span></button>
+       <br/>
+       <p id="primeNumber" class="primeOutput">NUMBERS HERE</p>
+       <br/>
+       <br/>
+     </div>
+ </div>
+
+
+
+  </body>
+</html>

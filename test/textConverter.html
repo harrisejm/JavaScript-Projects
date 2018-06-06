@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Eddie text info and stuff</title>
+  <script src="converter.js"></script>
+  <link href="textstyle.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+  <div class="imagebackground">
+    <p class="intro-line">Enter Text below</p>
+    <p class="textBox" align="center"> <input type="text" id="myText" class="myInputText" maxlength="100" /></p>
+  </div>
+
+  <div class="resultsbackground">
+    <br/>
+    <p id="originalText" class="outputText" align="center"></p>
+    <p id="newText" class="inputText" align="center"></p>
+  </div>
+
+  <div class="buttonSection">
+    <br/>
+
+    <p style="color:white;" align="center">Click the buttons below to manipulate text.</p>
+    <div class="buttonAlign">
+      <button onclick="lowCase()" class="button button1"><span>Lowercase<span></button>
+      <button onclick="capitalize()" class="button button2"><span>Capitalize</span></button>
+      <button onclick="reverseComplete()" class="button button3"><span>Reverse Text</span></button>
+      <button onclick="reverseLetters()" class="button button4"><span>Reverse Letters</span></button>
+      <button onclick="reverseSentance()" class="button button5"><span>Reverse Word Position</span></button>
+      <button onclick="reverseFirstLast()" class="button button6"><span>Reverse First &amp; Last Letters</span></button>
+      <button onclick="countLetters()" class="button button7"><span>Count Letters</span></button>
+      <button onclick="countWords()" class="button button8"><span>Count Words</span></button>
+      <button onclick="wordOccurrences()" class="button button10"><span>Word Occurrences</span></button>
+      <button onclick="letterOccurrences()" class="button button9"><span>Letter Occurrences</span></button>
+    </div>
+    <br/>
+    <div class ="description">
+      <P>Change All Text to Lowercase</br>
+      <b>change all text to lowercase</b><p>
+
+      <br/>
+      <P>Change All Text to Uppercase</br>
+      <b>CHANGE ALL TEXT TO UPPERCASE</b><p>
+
+      <br/>
+      <P>Completely Reverse All letters/Words</br>
+      <b>sdroW/srettel llA esreveR yletelpmoC</b><p>
+
+      <br/>
+      <P>Reverse Letters in All Words. Words Do Not Change Position</br>
+      <b>esreveR sretteL ni llA .sdroW sdroW oD toN egnahC noitisoP</b><p>
+
+      <br/>
+      <P>Reverse Position All Words</br>
+      <b>Words All Position Reverse</b><p>
+
+      <br/>
+      <P>Reverse the First and Last Letter in All Words</br>
+      <b>eeversR eht tirsF dna tasL retteL ni llA sordW</b><p>
+
+      </br>
+      <P>Count the Number of Letters</br>
+      <b>Letter Count = 23</b></p>
+
+      <br/>
+      <p>Count of the Number of Words</br>
+      <b>Word Count = 6</b></p>
+
+      </br>
+      <p>Counts the Number of Times Each Word Appears</br>
+      <b> "APPEARS - 1", "COUNTS - 1", "EACH - 1", "NUMBER - 1", "OF - 1", "THE - 1", "TIMES - 1", "WORD - 1"</b></p>
+      </br>
+      <p>Counts the Number of Times Each Letter Appears</br>
+      <b> "A - 3", "C - 2", "E - 7", "H - 2", "M - 2", "N - 2", "O - 2", "P - 2", "R - 3", "S - 3", "T - 5", "U - 2", "B - 1", "F - 1", "I - 1", "L - 1"</b></p>
+
+      <br/>
+    </div>
+  </div>
+</body>
+</html>

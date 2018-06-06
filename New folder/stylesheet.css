@@ -1,0 +1,30 @@
+canvas {
+    border: 1px dotted black;
+    display: inline-block;
+
+}
+
+#largess {
+  height: 110px;
+  width: 685px
+  border: solid;
+  background-color:	red;
+  display: inline-block;
+position: absolute;
+}
+
+.contanier {
+  height: 905px;
+  width: 1870px
+  border: solid;
+  background-color:	#D3D3D3;
+    position: relative;
+}
+
+
+#box {
+  background-color: green;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}

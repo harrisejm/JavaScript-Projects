@@ -1,0 +1,90 @@
+button {
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  margin: 6px;
+  cursor: pointer;
+  font-family: times;
+  width: 110px;
+  height: 50px;
+  background-color: #0033CC;
+  opacity: 0.8;
+  color: #66FFFF;
+  border: 2px solid black;
+  border-radius: 5%;
+  box-shadow: 6px 6px 6px #003300;
+}
+
+button:hover {
+  background-color: #0033CC;
+  opacity: 1;
+}
+
+button:active {
+  box-shadow: 2px 2px 2px #003300;
+  transform: translate(3px, 3px);
+}
+
+.memory {
+  font-size: 20px;
+  font-family: times;
+}
+
+.instructions {
+  margin: auto;
+  height: 375px;
+  width: 500px;
+  padding: 10px;
+  position: relative;
+}
+
+div.panel {
+ margin: auto;
+ height: 375px;
+ width: 500px;
+ padding: 10px;
+background-color: #32CD32;
+border: 1px solid black;
+box-shadow: 6px 6px 6px #006633;
+border-radius: 5px;
+}
+
+p.format {
+  border: 2px solid black;
+  height: 6px;
+  width: 360px;
+  margin: 6px 6px 6px 6px;
+  font-size: 40px;
+  padding-bottom: 40px;
+  text-align: right;
+  float: right;
+  background-color: white;
+  box-shadow: 4px 4px 4px #003300;
+  background-color: #e6ffe6;
+  border-radius: 10px;
+}
+
+.primeNumberGen {
+  width: 500px;
+  word-wrap: break-word;
+}
+
+.primeNumberTitle {
+  font-size: 20px;
+  text-align: center;
+}
+
+.myInputTextStart {
+  margin-left: 18px;
+  width: 80px;
+}
+
+.myInputTextEnd {
+ width: 80px;
+ margin-left: 20px;
+}
+.primeOutput {
+display: inline-block;
+position: relative;
+width: 500px;
+}

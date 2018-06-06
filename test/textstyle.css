@@ -1,0 +1,188 @@
+div.imagebackground {
+  background-image: url("wordsmain.jpg");
+	background-size: contain;
+  background-position: center top;
+  height: 300px;
+  min-width: 530px;
+}
+
+div.resultsbackground {
+  background-image: url("create.jpg");
+  background-size: contain;
+  background-position: center top;
+  height: 300px;
+  min-width: 530px;
+  opacity: 0.9;
+}
+
+div.buttonSection {
+  background-image: url("new.jpeg");
+  background-size: contain;
+  background-position: center top;
+  height: 100%
+  opacity: 0.9;
+  min-width: 530px;
+}
+
+p.outputText {
+  font-size: 20pt;
+  color: white;
+  margin: 50px auto;
+  font-family: " Helvetica";
+}
+
+p.inputText {
+  font-size: 20pt;
+  color: white;
+  margin: 130px auto;
+  font-family: " Helvetica";
+}
+
+.myInputText {
+  height: 30px;
+  width: 500px;
+  font-size: 18pt;
+  font-family: Times;
+}
+
+p.textBox {
+  margin: 118px auto;
+  position: relative;
+
+}
+
+p.intro-line {
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 60px;
+  font-size: 20px;
+  opacity: 0.6;
+ }
+
+div .description {
+   color: white;
+   opacity: 0.7;
+   text-align: center;
+   margin: auto;
+ }
+
+
+
+div.buttonAlign {
+  margin: auto;
+  padding: 0px 100px;
+}
+
+
+ .button {
+     text-align: center;
+     display: inline-block;
+     font-size: 20px;
+     margin: 6px;
+     -webkit-transition-duration: 0.4s;
+     transition-duration: 0.4s;
+     cursor: pointer;
+     font-family: times;
+     width: 110px;
+     background-color: #0033CC;
+     opacity: 0.7;
+     color: #66FFFF;
+     border: 2px solid white;
+ }
+
+ .button:hover {
+     background-color: #00FFFF;
+     color: white;
+     box-shadow: 4px 4px 4px #FF00FF; */pink
+ }
+
+ button:hover span {
+    display:none
+  }
+
+button.button1:hover:before {
+   content:"lowercase";
+   color: #0033CC;
+ }
+
+.button2 {
+  width: 140px;
+}
+
+button.button2:hover:before {
+  content: "CAPITALIZE";
+  color: #0033CC;
+}
+
+.button3 {
+  width: 140px;
+}
+
+button.button3:hover:before {
+  content: "txeT esreveR";
+  color: #0033CC;
+}
+
+.button4 {
+  width: 150px;
+}
+
+button.button4:hover:before {
+  content: "esreveR sretteL";
+  color: #0033CC;
+}
+
+.button5 {
+  width: 200px;
+}
+
+button.button5:hover:before {
+  content: "Position Word Reverse";
+  color: #0033CC;
+}
+
+.button6 {
+  width: 250px;
+}
+
+button.button6:hover:before {
+  content: "eeversR tirsF & tasL setterL";
+  color: #0033CC;
+}
+
+.button7 {
+  width: 160px;
+}
+
+button.button7:hover:before {
+  content: "Letter Count = 12";
+  color: #0033CC;
+}
+
+.button8 {
+  width: 160px;
+}
+
+button.button8:hover:before {
+  content: "Word Count = 2";
+  color: #0033CC;
+}
+
+.button9 {
+  width: 330px;
+}
+
+button.button9:hover:before {
+  content: "c-3, e-4, r-3, t-2, L-1, O-1, n-1, s-1, u-1";
+  color: #0033CC;
+}
+
+.button10 {
+  width: 200px;
+}
+
+button.button10:hover:before {
+  content: "Word-1 Occurrences-1";
+  color: #0033CC;
+}
